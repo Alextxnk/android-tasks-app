@@ -16,9 +16,10 @@
         android:layout_height="30dp"
         android:layout_weight="1"
         android:textColor="@color/white"
-        android:textSize="17sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginEnd="5dp"
+        android:gravity="center_vertical"
         android:text="Задача" />
 
     <TextView
@@ -27,10 +28,11 @@
         android:layout_height="30dp"
         android:layout_weight="1"
         android:textColor="@color/white"
-        android:textSize="17sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
+        android:gravity="center_vertical"
         android:text="Статус"/>
 
     <ImageView
