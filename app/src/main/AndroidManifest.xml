@@ -12,7 +12,10 @@
         android:theme="@style/Theme.EmployeeTasks"
         tools:targetApi="31">
         <activity
-            android:name=".Application"
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".User"
             android:exported="false" />
         <activity
             android:name=".Login"
