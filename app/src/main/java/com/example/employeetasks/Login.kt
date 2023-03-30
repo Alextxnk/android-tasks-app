@@ -43,7 +43,7 @@ class Login : AppCompatActivity() {
                 if (checkUser == true) {
                     if(loginUsernameText == "admin" && loginPasswordText == "admin") {
                         Toast.makeText(this, "Вход прошел успешно", Toast.LENGTH_SHORT).show()
-                        val intent = Intent(applicationContext, Admin::class.java)
+                        val intent = Intent(applicationContext, MainActivity::class.java)
                         startActivity(intent)
                     }
                     else if (loginUsernameText == "user" && loginPasswordText == "user") {

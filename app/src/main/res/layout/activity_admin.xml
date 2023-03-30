@@ -26,7 +26,7 @@
             android:text="Задача" />
 
         <EditText
-            android:id="@+id/taskName"
+            android:id="@+id/etName"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_weight="1"
@@ -58,7 +58,7 @@
             android:text="Статус" />
 
         <EditText
-            android:id="@+id/statusName"
+            android:id="@+id/etStatus"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_weight="1"
